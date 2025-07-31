@@ -13,7 +13,7 @@ services:
     build: ./frontend
     container_name: frontend
     ports:
-      - '3000:80'  # React build served via NGINX
+      - '3000:80'  
     networks:
       - webnet
 
